@@ -1,0 +1,50 @@
+.contenedir{
+    width: 800px;
+    height: 700px;
+    background-color: gainsboro;
+    margin: 0 auto;
+}
+.caja_amarillo{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    /*transition-duration: 2300ms;*/
+    transition: background-color, border-radius 2500ms;
+    border-radius: 2%;
+
+}
+.caja_amarillo:hover{
+    background-color: violet;
+    border-radius: 50%;
+    opacity: 0.3;
+}
+/*---*/
+.caja_rojo{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border-radius: 2%;
+    transition: all 2500ms;
+}
+.caja_rojo:hover{
+    background-color: blue;
+    opacity: .2;
+    transform: scale(0.8);
+}
+/*---*/
+.caja_verde{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    border-radius: 2%;
+}
+.caja_verde:hover{
+    background-color: rgb(0, 128, 0, 0.4);
+}
+.caja_verde:active{
+    transform: scale(.6);
+}
+
+div{
+    display: inline-block;
+}
